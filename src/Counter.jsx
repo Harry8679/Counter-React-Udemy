@@ -15,16 +15,16 @@ export default function Counter() {
           Ajouter
         </button>
         <button
-          className="bg-red-500 text-white px-4 py-2 rounded-lg"
-          onClick={() => setCount(count - 1)}
-        >
-          Enlever
-        </button>
-        <button
           className="bg-gray-500 text-white px-4 py-2 rounded-lg"
           onClick={() => setCount(0)}
         >
           Remettre à 0
+        </button>
+        <button
+          className="bg-red-500 text-white px-4 py-2 rounded-lg"
+          onClick={() => setCount(count - 1)}
+        >
+          Enlever
         </button>
       </div>
     </div>
